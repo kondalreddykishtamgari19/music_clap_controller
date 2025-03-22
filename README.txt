@@ -1,40 +1,19 @@
-# music_clap_controller
-Aurdino_Code:
-==============
-replace wifi credentials in line 5 and 6
-:Hotspot Name and your password.
-Change firebase url in line 30.(which is your realtime database url)
-Change Secret key in line 31. which is in database secrets. 
+🎶 Music Clap Controller 🎧
+A smart project that plays music based on your mood through clap detection!
 
-Make sure your laptop and esp32 microcontroller should be in same network which mentioned in the aurdino_code
+The Music Clap Controller is an innovative system that detects the user's mood through clap signals and plays music accordingly. By leveraging a Firebase Realtime Database and an ESP32 microcontroller, this project aims to provide a personalized music experience tailored to the user's emotional state.
 
 
-
-Music_Clap_Controlled_Folder
-============================
-Replace "clap.json"  after creating firebase account.
-
-
--->Open visual Studio code
--->Click on file
--->Add folder to workspace
--->Open terminal
--->Click on new terminal
-
-To install libraries:
-=====================
-pip install -r requirements.txt
-
-Takes more than 3 minutes to install dont disturb the terminal while installing.
+🛠️ Features
+Mood Detection via Clap Sounds: Analyzes clap patterns to detect the user's mood.
+Personalized Music: Plays music based on the detected mood.
+Real-time Data Sync: Uses Firebase Realtime Database for storing and accessing data.
+ESP32 Integration: Utilizes an ESP32 microcontroller for sound detection.
 
 
-In app.py
-=========
-Replace firebase realtime database url in line 12.
-
-click on ctrl+S to save after changes
-
-to execute python file:
-=======================
-python app.py
-
+🔧 Technologies Used
+Arduino IDE: For programming the ESP32 microcontroller.
+Firebase: For Realtime Database.
+Python: For developing the mood-based music player.
+PyAudio: For handling audio inputs.
+Visual Studio Code: As the code editor.
